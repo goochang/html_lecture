@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<a href="http://daum.net">다음</a>
+<form action="http://daum.net" method="GET">
+	<label for="id">아이디 :</label> 
+	<input id="id" type="text" size="20"><br>
+	
+	<label for="pwd">패스워드 :</label>
+	<input type="password"><br>
+	
+	<fieldset>
+		<legend>희망연봉</legend>
+		<input type="radio" name="salary">2400~2600<br>
+		<input type="radio" name="salary">2600~2800<br>
+		<input type="radio" name="salary">2800~3000<br>
+		<input type="radio" name="salary">3000~3200<br>
+		<input type="radio" name="salary">3200~3000<br>
+	</fieldset>
+	
+	<strong>사용언어(중복가능)</strong><br>
+	<input type="checkbox" name="dev">c++<br>
+	<input type="checkbox" name="dev">js<br>
+	<input type="checkbox" name="dev">java<br>
+	<input type="checkbox" name="dev">htmlcss<br>
+	                                   
+	<strong>취미(중복가능)</strong><br>
+	<input type="checkbox" name="play">개발<br>
+	<input type="checkbox" name="play">공부<br>
+	<input type="checkbox" name="play">게임<br>
+	
+	<strong>자기소개</strong><br>
+	<textarea rows="5" cols="20"></textarea><br>
+	
+	<strong>첨부파일</strong><br>
+	<input type="file">
+	
+	
+	<input type="submit" value="클릭">
+</form>
+
+</body>
+</html>
